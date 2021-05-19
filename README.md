@@ -3,7 +3,7 @@ A face-recognition based student attendance management system using OpenCV
 
 This **“Attendance Management System”** (Prototype) is a stand-alone Python back-end application developed using Python and TensorFlow as backend and uses the Machine Learning algorithms of OpenCV2 to detect faces. The programming language used is Python. The GUI for the front-end of this prototype is the Python Tkinter Application. Along with TensorFlow, Keras and SQLlite3 is used for the database. The prerequisite for running this app is Python, Tensorflow and SQLlite3 installed on your computer. 
 
-**Features available:   **  
+**Features available:**  
 1.	Register a new student or teacher with their required details.    
 2.	Take multiple images of the newly registered student/teacher as training images. 
 3.	Train the machine on the new set of images. 
