@@ -13,10 +13,10 @@ This **“Attendance Management System”** (Prototype) is a stand-alone Python 
 _Register New Student/Teacher_    
 The system uses the SQLlite3 database and Python to take a new entry of a student. The students Name, Roll No, Registration Id and Branch is stored in the database and a folder of their name is created. The laptop camera is activated and multiple pictures of the user is taken and stored in the training folder with their name. 
  
-_Train Machine using Images _ 
+_Train Machine using Images_ 
 The system has a button to train images. This button allows the machine to use the newly created folder of training images of the new registered student or teacher. It uses the concept of SVM and Haar Cascade models provided through OpenCV and TensorFlow algorithms, to detect the faces and add it to the database. 
   
-_Mark attendance _  
+_Mark attendance_  
 This button on the application activates the laptop camera again and searches for a face in the captured video feed. The student’s face is immediately recognized and displayed on the screen alongside the face. On the command prompt, the name of the detected student or teacher is displayed along with the accuracy with which the machine guessed the user. 
   
 _Check Attendance_   
